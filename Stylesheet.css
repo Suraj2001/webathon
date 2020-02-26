@@ -1,0 +1,271 @@
+/* Apply box-sizing: border-box; to all the elements */
+
+@import html.sb-init body div#contents main#sb-site div.main footer.footer
+
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .container {
+    /* Change the width to 100% */
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  .logo{
+    width: 100%;
+  }
+  
+  /* .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+    background-size: cover;
+    color: white;
+    text-align: center;
+  } */
+
+  .top-wrapper {
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 97.5%;
+    padding: 20px;
+    position: absolute;
+    bottom: 0px;
+  }
+  
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+  }
+  .top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+  }
+  
+  .btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .btn-wrapper p {
+    margin: 10px 0;
+  }
+  
+  .signup {
+    background-color: #239b76;
+  }
+  
+  .facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+  }
+  
+  .twitter {
+    background-color: #55acee;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .fa {
+    margin-right: 5px;
+  }
+  
+  header {
+    height: 70px;
+    width: 100%;
+    background: rgb(18,180,185);
+    background: linear-gradient(90deg, rgba(18,180,185,1) 0%, rgba(34,110,157,1) 77%, rgba(26,127,148,1) 100%);
+    position :fixed;
+    top: 0;
+    opacity: 90%;
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 70px;
+    margin-top: 3px;
+    float: left;
+  }
+  
+  .header-left {
+    float: left;
+  }
+
+  .header-left a{
+    line-height: 70px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: right;
+    transition: all 0.5s;
+    margin-left: 5px;
+    font-weight: bold;
+    font-stretch: semi-expanded;
+  }
+  
+
+  .header-left a:hover{
+    background-color: #3b5998;
+  }
+  
+  .header-right {
+    float: right;
+  }
+
+ .header-right input[type=text] {
+    float: left;
+    width: 300px;
+    padding: 6px 10px;
+    border: none;
+    margin-top: 20px;
+    margin-right: 16px;
+    font-size: 17px;
+    margin-right: 200px;
+    border-radius: 20px;
+    font-weight: bolder;
+  } 
+
+  .searchInput:focus{
+    color:  #09377e;
+  }
+ 
+  .header-right a {
+    line-height: 70px;
+    color: white;
+    padding: 0 25px;
+    display: block;
+    float: right;
+    transition: all 0.5s;
+    margin-right: -100px;
+  }
+  
+  .header-right a:hover {
+    background-color: #3b5998;
+  }
+  
+  .lesson-wrapper {
+    height: 580px;
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  .heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .lesson {
+    float: left;
+    width: 25%;
+  }
+  
+  .lesson-icon {
+    position: relative;
+  }
+  
+  .lesson-icon p {
+    position: absolute;
+    top: 44%;
+    width: 100%;
+    color: white;
+  }
+  
+  .text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+  }
+  
+  .heading h3 {
+    font-weight: normal;
+  }
+  
+  .message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+  
+  .message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  
+  footer img {
+    width: 125px;
+  }
+  
+  footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+  }
+  
+  footer {
+    height: 150px;
+    width: cover;
+    bottom: 0px;
+    background: rgb(18,180,185);
+    background: linear-gradient(90deg, rgba(18,180,185,1) 0%, rgba(34,110,157,1) 77%, rgba(26,127,148,1) 100%);
+  }
+
+
+
+  .container1 {
+    float: left;
+  }
+  .Courses{
+    float: right;
+    margin-left: 50px;
+    margin-top: 7px;
+    color: #f1f1f1;
+  }
+
+  .Courses a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #f1f1f1;
+  }
