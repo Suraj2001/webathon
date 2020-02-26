@@ -1,7 +1,5 @@
 /* Apply box-sizing: border-box; to all the elements */
 
-@import html.sb-init body div#contents main#sb-site div.main footer.footer
-
 body {
     margin: 0;
     font-family: "Lucida Grande";
